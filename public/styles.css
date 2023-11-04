@@ -1,0 +1,41 @@
+/* Center the to-do list and add background color */
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blanchedalmond; /* Adjust the background color as desired */
+    margin: 0;
+  }
+  
+  /* Style for the task input and "Add" button */
+  #new-task {
+    margin-bottom: 10px; /* Add space between the input and button */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #add-task {
+    width: 100px; /* Adjust the width as needed */
+    padding: 5px 10px;
+    background-color: #007bff; /* Add a background color to the button */
+    color: #fff; /* Set the text color to white */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Disappearing effect for completed tasks */
+  .completed {
+    text-decoration: line-through; /* Add strikethrough effect */
+    opacity: 0; /* Make completed tasks invisible */
+    transition: opacity 0.3s;
+  }
+  
+  /* Optional: Change the cursor to a pointer when hovering over tasks */
+  .completed:hover {
+    cursor: pointer;
+  }
+  
