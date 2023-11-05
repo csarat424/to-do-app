@@ -1,6 +1,6 @@
 # Simple To-Do App
 
-This is a simple to-do app built with HTML, CSS, JavaScript, and Node.js. The app allows you to add tasks, mark them as completed, and features a Dockerfile for easy deployment.
+This is a simple to-do app built with HTML, CSS, JavaScript, and Node.js. The app allows you to add tasks, mark them as completed, and features a Dockerfile for easy deployment on an EC2 Ubuntu Instance
 
 ## Features
 
