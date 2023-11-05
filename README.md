@@ -9,8 +9,6 @@ This is a simple to-do app built with HTML, CSS, JavaScript, and Node.js. The ap
 - Centered design with a pleasant background.
 - Dockerized for easy deployment.
 
-## Getting Started
-
 ### Prerequisites
 
 - Node.js: Make sure you have Node.js installed on your local machine. You can download it from [nodejs.org](https://nodejs.org/).
